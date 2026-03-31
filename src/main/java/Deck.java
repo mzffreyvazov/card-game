@@ -5,13 +5,13 @@ public class Deck {
     /**
      * Represents the deck as a list of Card objects
      */
-    private ArrayList<Card> deck;
+    private final ArrayList<Card> deck;
 
     /**
      * Constructor for the Deck class -- create an ArrayList of 52 Cards
      */
     public Deck() {
-        this.deck = new ArrayList<Card>();
+        this.deck = new ArrayList<>();
 
         for (Suit s : Suit.values()) {
             for (Rank r : Rank.values()) {
