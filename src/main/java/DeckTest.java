@@ -1,0 +1,10 @@
+public class DeckTest {
+
+    public static void main(String[] args) {
+        Deck newDeck = new Deck();
+
+        newDeck.shuffle();
+
+        System.out.println(newDeck);
+    }
+}
